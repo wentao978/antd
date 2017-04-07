@@ -7,9 +7,10 @@ import Button from './button'
 import Tree from './tree';
 import Modal from './modal'
 import Notice from './notice'
+import DateRange from './date';
 
 ReactDOM.render(
-    <Notice />,
+    <DateRange />,
     document.getElementById('app')
 )
 
